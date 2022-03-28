@@ -1,0 +1,2 @@
+. omz/bin/activate
+python open_model_zoo/demos/formula_recognition_demo/python/formula_recognition_demo.py -m_decoder open_model_zoo/downloaded_models/intel/formula-recognition-medium-scan-0001/formula-recognition-medium-scan-0001-im2latex-decoder/FP32/formula-recognition-medium-scan-0001-im2latex-decoder.xml -m_encoder open_model_zoo/downloaded_models/intel/formula-recognition-medium-scan-0001/formula-recognition-medium-scan-0001-im2latex-encoder/FP32/formula-recognition-medium-scan-0001-im2latex-encoder.xml -v vocab.json -i $1 -o out.txt
